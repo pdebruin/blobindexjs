@@ -9,7 +9,12 @@
             "request": "launch",
             "name": "Launch Edge against localhost",
             "url": "http://localhost:1234/index.html",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "breakOnLoad": true,
+            "sourceMapPathOverrides": {
+              "../*": "${webRoot}/*"
+
+            }
         }
     ]
 }

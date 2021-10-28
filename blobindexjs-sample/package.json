@@ -2,7 +2,7 @@
   "name": "blobindexjs-sample",
   "version": "0.0.1",
   "description": "Sample using blobs, tags and indexes of Azure Storage",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,14 @@
     "last 1 Firefox version"
   ],
   "dependencies": {
-    "@azure/storage-blob": "^12.8.0"
+    "@azure/storage-blob": "^12.8.0",
+    "route.js": "^0.0.1",
+    "router.js": "^1.0.3",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "parcel": "^2.0.0",
+    "postcss": "^8.3.11"
   }
 }
